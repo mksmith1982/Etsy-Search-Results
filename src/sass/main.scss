@@ -1,0 +1,242 @@
+/////////SASS @MIXINS/////////
+
+@mixin iblock{
+	
+	display:inline-block
+}
+
+@mixin boxborder{
+
+	border: 1px solid black;
+
+}
+
+@mixin test{
+	border: 1px solid red;
+}
+
+// @include test;
+
+// 
+
+
+@mixin relposition{
+	
+	display:inline-block;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+//     @include relposition
+///////////////////////////////////
+
+html{width:1145px;
+}	
+
+
+//////////////////////////////////
+#header{
+	background:green;
+	@include iblock;
+	@include boxborder;
+	height:60px;
+	width: 1145px;
+
+}
+
+
+	#header > .Etsy {
+    
+		border: 1px solid black;
+	    display: inline-block;
+	    color: orange;
+	    position: relative;
+	    top: 11px;
+	    font-size: 22pt;
+	    left: 29px;
+	    font-family: serif;
+}
+
+	#header > .search{
+		@include boxborder;
+		@include iblock;
+
+
+	}
+
+	.searchbutton{
+		@include boxborder;
+		@include iblock;
+		border: 1px solid black;
+		display: inline-block;
+		position: relative;
+		left: 45px;
+		top: 9px;
+		width: 310px;
+
+
+	}
+
+
+.toprightbox{height:60px;
+	background-color:red;
+	width:300px;
+	display:inline-block;		
+	font-family:serif;
+	font-size:12pt;
+	position:relative;
+	bottom:12px;		
+}
+
+
+	.toprightbox >.sell{
+		position:relative;
+
+
+	}
+
+
+	.toprightbox >.register{
+		position:relative;
+
+
+	}
+
+	.toprightbox >.sign{
+		position:relative;
+
+
+	}
+
+	.toprightbox >.cart{
+		position:relative;
+
+
+	}
+
+///////////////////////////////////
+
+//////////////////////////////////
+
+
+
+.navbar{
+	display:block;
+	@include boxborder;
+	// height:50px;
+	// list-style:none;
+	// text-align:horizontal;
+	// background:red;
+	}
+
+
+.ulnav{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #235843;
+    height:32px
+}
+
+.ulnav > li {
+	float: left;
+	font-size:10pt;		
+}
+
+
+
+/////////////////////////////////////
+////////////MAIN CONTAINER///////////
+
+#maincontainer{
+	height:900px;
+	width:1145px;
+	background-color:lightgrey;
+}
+	
+	.resultsinfo{
+		height:30px;
+		display:block;
+		background-color:green;
+		font-size: 10pt;
+		@include test;
+		width:1145px;
+
+	}
+	
+	.showresults{
+		@include test;
+
+
+	}
+
+	.categoriesblue{
+		@include test;
+
+
+	}
+
+	.resultsheader{
+		@include test;
+
+
+
+	}
+
+
+
+
+
+//////////////////////////////////////
+///////////////LEFT RAIL/////////////
+
+
+#leftrail{
+	
+    height: 329px;
+    width: 184px;
+    background-color: yellow;
+    position: relative;
+    bottom: 0px;
+    left: 27px;
+    font-size: 10pt;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
