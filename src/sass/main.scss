@@ -51,16 +51,17 @@ li{list-style:none;
     margin-top: 8px;}
 
 
-
+a{color:black;
+ text-decoration:none;}
 
 
 
 
 #header{
-	background: white;
+    background: white;
     display: inline-block;
-    border: 1px solid black;
-    height: 60px;
+    border: 1px solid #e4e5e0;
+    height: 66px;
     width: 1145px;
 }
 
@@ -99,7 +100,9 @@ li{list-style:none;
 		position: relative;
 		left: 45px;
 		top: 9px;
-		width: 318px;}
+		width: 318px;
+		border-right:none;
+	}
 
 	.searchbutton{
     background: #7bd3d3;
@@ -123,7 +126,7 @@ li{list-style:none;
 .toprightbox{
     height: 30px;
     background-color: white;
-    width: 265px;
+    width: 188px;
     display: inline-block;
     font-family: serif;
     font-size: 10pt;
@@ -162,18 +165,32 @@ li{list-style:none;
 		color: #47b1c8;
 
 	}
+	// .cartborder{
+	// 	border-left:solid lightgrey 1px;
+	// 	height:40px;
+	// 	position:relative;
+	// 	bottom:19px;
+	// 	left:125px;
+	// }
+	.cart{
+	    position: relative;
+	    padding-left: 0px;
+	    top: 25px;
+	    left: 41px;
+	    color: #676767;
+	    width: 20px;
+	    margin: 0px;
+	    display: inline-block;
 
-	.toprightbox >.cart{
-		    position: relative;
-			padding-left: 19px;
-			top: 10px;
-			left: 25px;
-			color: #47b1c8;
 
 		}
 .cartimage{
-			height:20px;
-			width:20px;
+    height: 14px;
+    width: 17px;
+    color: #676767;
+    position: relative;
+    left: 3px;
+    bottom: 30px;
 
 	}
 
@@ -184,30 +201,35 @@ li{list-style:none;
 
 
 .navbar{
-	display: block;
-    border: 1px solid black;
-    height: 50px;
+    display: block;
+    border: 1px solid #e4e5e0;
+    height: 41px;
     list-style: none;
+    position: relative;
+    top: 26px;
+    background: white;
 	}
 
 
 .ulnav{
-	list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    
- 
-    height:32px
+    position: relative;
+    bottom: 6px;
+    height: 32px;
+    padding-bottom: 0;
 }
 
 .ulnav > li {
-	       float: left;
+    float: left;
     font-size: 9pt;
     margin: 0px;
     position: relative;
     left: 7px;
     top: 13px;
     padding-left: 18px;
+
 
 		
 }
@@ -231,14 +253,14 @@ li{list-style:none;
 }
 	
 	.resultsinfo{
-	height: 30px;
-	display: block;
-	background: #f4f5f0;
-	font-size: 9pt;
-
-	width: 1145px;
-	position: relative;
-	bottom: 21px;
+    height: 48px;
+    display: block;
+    background: #f4f5f0;
+    font-size: 9pt;
+    width: 1145px;
+    position: relative;
+    bottom: 12px;
+    padding-top: 21px;
     
 
 	}
@@ -303,7 +325,7 @@ li{list-style:none;
     width: 184px;
     background-color: white;
     position: relative;
-    bottom: 21px;
+    bottom: 14px;
     left: 27px;
     font-size: 10pt;
     display: inline-block;
@@ -328,13 +350,17 @@ li{list-style:none;
 
 
 .singleItem {
-  border: 1px solid black;
-  width: 200px;
-  height: 175px;
-  float: left;
-  font-size: 10px;
-  margin: 10px;
-}
+    border: 1px solid #e4e5e0;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 10px;
+    margin: 10px;
+    font-color: black;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    margin-right: 11px;}
 
 
 
@@ -344,6 +370,9 @@ li{list-style:none;
   white-space: nowrap;
   padding-left: 0px;
   padding-top:0;
+  text-decoration: none;
+  color: black;
+
 
 }
 
@@ -356,7 +385,7 @@ li{list-style:none;
     background: #f4f5f0;
     height: auto;
     position: relative;
-    bottom: 30px;			
+    bottom: 15px;			
    
 }
 
@@ -366,8 +395,8 @@ li{list-style:none;
 
 
 img {
-  height: 147px;
-  width: 197px;
+  height: 165px;
+  width: 200px;
   padding-bottom: 0px;
 }
 
@@ -375,6 +404,11 @@ img {
 
 .price{
 padding:0px;
+position:relative;
+margin:0;
+left:162px;
+bottom:10px;
+color:#8dc967;
 }
 
 .store{padding:0;}

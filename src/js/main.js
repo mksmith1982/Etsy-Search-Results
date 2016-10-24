@@ -43,10 +43,10 @@ import { data } from "./items.js";
 				<span class = "store"> 
 				<a href =${storeLink}>${storeName} </a>
 				</span>
-          
-				<span class = "price">
+          		
+				<p class = "price">
 				$ ${itemPrice} 
-				</span>	
+				</p>	
 
             </div>
   
