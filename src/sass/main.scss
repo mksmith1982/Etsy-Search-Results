@@ -363,6 +363,30 @@ a{color:black;
     margin-right: 11px;}
 
 
+.singleItem:hover .hover {
+  visibility: visible;
+}
+.hover {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  top:2px;
+  right:8px;
+}
+.hamburgericon {
+  height: 16px;
+  width: 16px;
+  color: grey;
+  border: 1px solid lightgrey;
+
+}
+
+.hearticon {
+  height: 16px;
+  width: 16px;
+  color:grey;
+  border: 1px solid lightgrey;
+}
 
 .singleItem > div {
   text-overflow: ellipsis;

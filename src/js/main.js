@@ -28,29 +28,34 @@ import { data } from "./items.js";
   var resultHTML = 
 
   
-`<div class = "singleItem">
-      <img src = ${image}>
-      
-    <div>
-        
-        	<a href = ${itemLink}>
-        	${itemName}
-        </a>
-         
- 			<div>
-          
+`<a class = "itemLink" href = ${itemLink}>
 
-				<span class = "store"> 
-				<a href =${storeLink}>${storeName} </a>
-				</span>
-          		
-				<p class = "price">
-				$ ${itemPrice} 
-				</p>	
+	<div class = "singleItem"><img src = ${image}>
 
-            </div>
-  
-       </div>
+		<div>
+
+			<a href = ${itemLink} > ${itemName} </a>
+
+				<div>
+
+
+
+				<div class="hover">
+
+					<span><img class = "hearticon" src = "images/heart.png"><span>
+
+					<span><img class = "hamburgericon" src = "images/hamburger.png"><span>
+
+
+				</div>
+
+					<span class = "store"> <a href =${storeLink}>${storeName} </a></span>
+
+					<p class = "price">$ ${itemPrice} </p>	
+
+			</div>
+
+	</div>
 </div>`;
 
 // get the data onto the page:
